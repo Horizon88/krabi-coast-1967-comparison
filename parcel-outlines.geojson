@@ -1,0 +1,685 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "deed": "45594",
+        "source": "DOL LandsMaps saved visual trace; original September 2026 investigation",
+        "source_file": "ao-tha-lane-chanotes.geojson",
+        "source_period": "September 2026; retained by 12 September",
+        "boundary_status": "Approximate screen trace, not surveyed geometry",
+        "recorded_area_rai": 41.1275,
+        "recorded_reference": [
+          98.75137753,
+          8.17733375
+        ],
+        "administration": "Khao Thong, Mueang Krabi, Krabi",
+        "source_url": "https://landsmaps.dol.go.th/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              98.7491979,
+              8.1770284704
+            ],
+            [
+              98.749176,
+              8.17730303712
+            ],
+            [
+              98.7491979,
+              8.177505349439999
+            ],
+            [
+              98.7495045,
+              8.17788107232
+            ],
+            [
+              98.7498695,
+              8.17837962768
+            ],
+            [
+              98.7500739,
+              8.178683096159999
+            ],
+            [
+              98.7504754,
+              8.178791477759999
+            ],
+            [
+              98.7510667,
+              8.178040032
+            ],
+            [
+              98.751147,
+              8.177989453919999
+            ],
+            [
+              98.7518405,
+              8.1777871416
+            ],
+            [
+              98.752242,
+              8.177498124
+            ],
+            [
+              98.7531983,
+              8.17741864416
+            ],
+            [
+              98.7532567,
+              8.17767876
+            ],
+            [
+              98.7537312,
+              8.17762095648
+            ],
+            [
+              98.7538334,
+              8.176363729919998
+            ],
+            [
+              98.7491979,
+              8.1770284704
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "deed": "45591",
+        "source": "DOL LandsMaps saved visual trace; original September 2026 investigation",
+        "source_file": "ao-tha-lane-chanotes.geojson",
+        "source_period": "September 2026; retained by 12 September",
+        "boundary_status": "Approximate screen trace, not surveyed geometry",
+        "recorded_area_rai": 41.1275,
+        "recorded_reference": [
+          98.75123349,
+          8.17606411
+        ],
+        "administration": "Khao Thong, Mueang Krabi, Krabi",
+        "source_url": "https://landsmaps.dol.go.th/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              98.7491979,
+              8.1770284704
+            ],
+            [
+              98.7538334,
+              8.176363729919998
+            ],
+            [
+              98.7538918,
+              8.1758001456
+            ],
+            [
+              98.7535779,
+              8.1758001456
+            ],
+            [
+              98.752607,
+              8.175489451679999
+            ],
+            [
+              98.7516069,
+              8.17535216832
+            ],
+            [
+              98.7508623,
+              8.175344942879999
+            ],
+            [
+              98.749395,
+              8.17532326656
+            ],
+            [
+              98.7491979,
+              8.1770284704
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "deed": "47124",
+        "source": "DOL LandsMaps saved visual trace; original September 2026 investigation",
+        "source_file": "ao-tha-lane-chanotes.geojson",
+        "source_period": "September 2026; retained by 12 September",
+        "boundary_status": "Approximate screen trace, not surveyed geometry",
+        "recorded_area_rai": 28.31725,
+        "recorded_reference": [
+          98.75177357,
+          8.17436564
+        ],
+        "administration": "Khao Thong, Mueang Krabi, Krabi",
+        "source_url": "https://landsmaps.dol.go.th/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              98.7508623,
+              8.175344942879999
+            ],
+            [
+              98.7516069,
+              8.17535216832
+            ],
+            [
+              98.752607,
+              8.175489451679999
+            ],
+            [
+              98.7526197074074,
+              8.175220695895872
+            ],
+            [
+              98.75271626825396,
+              8.175067776530794
+            ],
+            [
+              98.75287076560846,
+              8.17492441462603
+            ],
+            [
+              98.75273558042328,
+              8.17492441462603
+            ],
+            [
+              98.75278386084656,
+              8.174599460975237
+            ],
+            [
+              98.75289007777778,
+              8.174360524467302
+            ],
+            [
+              98.75290938994709,
+              8.174131145419683
+            ],
+            [
+              98.75287076560846,
+              8.173920881292698
+            ],
+            [
+              98.75276454867725,
+              8.173748847006983
+            ],
+            [
+              98.75260039523809,
+              8.173624600022857
+            ],
+            [
+              98.75187618888889,
+              8.17330920383238
+            ],
+            [
+              98.75123888730158,
+              8.173280531451429
+            ],
+            [
+              98.75113267037037,
+              8.173242301610157
+            ],
+            [
+              98.75105542169312,
+              8.173137169546665
+            ],
+            [
+              98.75096851693122,
+              8.17282177335619
+            ],
+            [
+              98.75088161216931,
+              8.17270708383238
+            ],
+            [
+              98.7508623,
+              8.175344942879999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "deed": "75203",
+        "source": "DOL LandsMaps saved visual trace; original September 2026 investigation",
+        "source_file": "ao-tha-lane-chanotes.geojson",
+        "source_period": "September 2026; retained by 12 September",
+        "boundary_status": "Approximate screen trace, not surveyed geometry",
+        "recorded_area_rai": 9.38475,
+        "recorded_reference": [
+          98.75199776,
+          8.17120759
+        ],
+        "administration": "Khao Thong, Mueang Krabi, Krabi",
+        "source_url": "https://landsmaps.dol.go.th/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              98.75139052955221,
+              8.171674953955836
+            ],
+            [
+              98.75248477731344,
+              8.171720720369917
+            ],
+            [
+              98.75272828597016,
+              8.170930486953477
+            ],
+            [
+              98.75168027402984,
+              8.170628428620551
+            ],
+            [
+              98.75158780238804,
+              8.170704705977352
+            ],
+            [
+              98.75151074268655,
+              8.170927435859205
+            ],
+            [
+              98.75145217731341,
+              8.171113552609794
+            ],
+            [
+              98.75141827104476,
+              8.171238647474945
+            ],
+            [
+              98.75140285910446,
+              8.171443070791167
+            ],
+            [
+              98.75139052955221,
+              8.171674953955836
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "deed": "47128",
+        "source": "DOL LandsMaps exact-title query and visible boundary selections, 26 September 2026",
+        "source_file": "47128-trace.json",
+        "source_date": "2026-09-26",
+        "boundary_status": "Approximate manually georeferenced screen trace, not surveyed geometry",
+        "recorded_area_rai": 5.6515,
+        "recorded_reference": [
+          98.7532121,
+          8.17271497
+        ],
+        "administration": "Khao Thong, Mueang Krabi, Krabi",
+        "source_url": "https://landsmaps.dol.go.th/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              98.75258332352941,
+              8.172659465517242
+            ],
+            [
+              98.75269394264706,
+              8.172729313793104
+            ],
+            [
+              98.7529006257353,
+              8.173008706896551
+            ],
+            [
+              98.75331399191177,
+              8.173215341379311
+            ],
+            [
+              98.7536429382353,
+              8.173256086206896
+            ],
+            [
+              98.75365458235295,
+              8.173314293103449
+            ],
+            [
+              98.753718625,
+              8.173378320689656
+            ],
+            [
+              98.7536924257353,
+              8.172449920689656
+            ],
+            [
+              98.7532470382353,
+              8.172400444827586
+            ],
+            [
+              98.75296175735295,
+              8.172382982758622
+            ],
+            [
+              98.75266483235295,
+              8.172380072413793
+            ],
+            [
+              98.75258041250001,
+              8.172522679310346
+            ],
+            [
+              98.75258332352941,
+              8.172659465517242
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "deed": "45592",
+        "source": "DOL LandsMaps exact-title query and visible boundary selections, 26 September 2026",
+        "source_file": "45592-trace.json",
+        "source_date": "2026-09-26",
+        "boundary_status": "Approximate manually georeferenced screen trace, not surveyed geometry",
+        "recorded_area_rai": 13.5975,
+        "recorded_reference": [
+          98.74890382,
+          8.17705188
+        ],
+        "administration": "Khao Thong, Mueang Krabi, Krabi",
+        "source_url": "https://landsmaps.dol.go.th/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              98.74978554500001,
+              8.178875652380952
+            ],
+            [
+              98.7491467225,
+              8.178668707142858
+            ],
+            [
+              98.7488588025,
+              8.178497752380952
+            ],
+            [
+              98.74857988,
+              8.178236821428571
+            ],
+            [
+              98.74846291249999,
+              8.178002883333333
+            ],
+            [
+              98.74843591999999,
+              8.177795938095239
+            ],
+            [
+              98.7484809075,
+              8.17752600952381
+            ],
+            [
+              98.7485168975,
+              8.177454028571429
+            ],
+            [
+              98.748525895,
+              8.177130114285713
+            ],
+            [
+              98.74865186,
+              8.177076128571429
+            ],
+            [
+              98.74857988,
+              8.17548355
+            ],
+            [
+              98.7491827125,
+              8.17548355
+            ],
+            [
+              98.7490027625,
+              8.177103121428571
+            ],
+            [
+              98.7489667725,
+              8.177382047619048
+            ],
+            [
+              98.748993765,
+              8.177606988095238
+            ],
+            [
+              98.749065745,
+              8.177777942857142
+            ],
+            [
+              98.74953361500002,
+              8.17835379047619
+            ],
+            [
+              98.74968657250001,
+              8.178578730952381
+            ],
+            [
+              98.74978554500001,
+              8.178785676190477
+            ],
+            [
+              98.74978554500001,
+              8.178875652380952
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "deed": "40802",
+        "source": "DOL LandsMaps exact-title query and visible boundary selections, 26 September 2026",
+        "source_file": "40802-trace.json",
+        "source_date": "2026-09-26",
+        "boundary_status": "Approximate manually georeferenced screen trace, not surveyed geometry",
+        "recorded_area_rai": 5.00325,
+        "recorded_reference": [
+          98.7501497,
+          8.17509221
+        ],
+        "administration": "Khao Thong, Mueang Krabi, Krabi",
+        "source_url": "https://landsmaps.dol.go.th/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              98.74946261796876,
+              8.17532511875
+            ],
+            [
+              98.75088334609374,
+              8.175357173437499
+            ],
+            [
+              98.75089499140624,
+              8.1748792671875
+            ],
+            [
+              98.74939565742189,
+              8.174870525
+            ],
+            [
+              98.74946261796876,
+              8.17532511875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "deed": "57183",
+        "source": "DOL LandsMaps exact-title query and visible boundary selections, 26 September 2026",
+        "source_file": "57183-trace.json",
+        "source_date": "2026-09-26",
+        "boundary_status": "Approximate manually georeferenced screen trace, not surveyed geometry",
+        "recorded_area_rai": 14.56125,
+        "recorded_reference": [
+          98.75144311,
+          8.17882029
+        ],
+        "administration": "Khao Thong, Mueang Krabi, Krabi",
+        "source_url": "https://landsmaps.dol.go.th/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              98.75056931,
+              8.180006859999995
+            ],
+            [
+              98.75087780000001,
+              8.179943579999996
+            ],
+            [
+              98.75134449000001,
+              8.179247499999999
+            ],
+            [
+              98.75239651999999,
+              8.179065569999999
+            ],
+            [
+              98.75252307999999,
+              8.179065569999999
+            ],
+            [
+              98.7523016,
+              8.177918620000002
+            ],
+            [
+              98.75210385,
+              8.178061000000001
+            ],
+            [
+              98.75185864,
+              8.178171740000002
+            ],
+            [
+              98.7515897,
+              8.17826666
+            ],
+            [
+              98.75121002,
+              8.17841695
+            ],
+            [
+              98.75076706,
+              8.179057659999998
+            ],
+            [
+              98.75060886000001,
+              8.179239589999998
+            ],
+            [
+              98.75022918000002,
+              8.179089299999998
+            ],
+            [
+              98.75056931,
+              8.180006859999995
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "deed": "47125",
+        "source": "Existing selected outline; November 2026 LandsMaps screen trace retained unchanged",
+        "source_file": "DEED_47125_APPROX_BOUNDARY.kml",
+        "boundary_status": "Approximate screen trace, not surveyed geometry",
+        "selected": true,
+        "recorded_area_rai": 9.467,
+        "recorded_reference": [
+          98.75332771,
+          8.17502033
+        ],
+        "administration": "Khao Thong, Mueang Krabi, Krabi",
+        "source_url": "https://landsmaps.dol.go.th/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              98.75260165999997,
+              8.175603139999998
+            ],
+            [
+              98.75354120666667,
+              8.175902086666664
+            ],
+            [
+              98.75375474000002,
+              8.175902086666664
+            ],
+            [
+              98.75374406333334,
+              8.174065700000005
+            ],
+            [
+              98.75288992999998,
+              8.175015923333333
+            ],
+            [
+              98.75276180999998,
+              8.175079983333333
+            ],
+            [
+              98.75263368999997,
+              8.17525081
+            ],
+            [
+              98.7525909833333,
+              8.175378929999999
+            ],
+            [
+              98.75260165999997,
+              8.175603139999998
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
