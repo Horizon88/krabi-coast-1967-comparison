@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Compare modern and 2 April 1967 imagery of the Krabi coast, with approximate DOL plot outlines.">
+  <title>Krabi coast — modern, 1967 and DOL plots</title>
+  <style>
+    :root {--font-size-base:16px;--background:#fff;--foreground:#17242b;--muted-foreground:#52616a;--blue:#087fd2;--red:#ec3434;color-scheme:light}
+    * {box-sizing:border-box}
+    body {margin:0;background:var(--background);color:var(--foreground);font:1rem/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    main {width:100%;max-width:1100px;margin:auto;padding:20px}
+    h3 {font-size:1.25rem;font-weight:600;line-height:1.4;margin:0}
+    .text-small {font-size:.875rem}
+    .text-muted {color:var(--muted-foreground)}
+    .tabular-nums {font-variant-numeric:tabular-nums}
+    .form-range {width:100%;margin:.75rem 0;accent-color:#087fd2}
+    .viz-controls {display:flex;align-items:center;flex-wrap:wrap;gap:.75rem}
+    .btn {font:inherit;padding:.45rem .85rem;border:1px solid #cbd4db;border-radius:2rem;background:var(--background);color:var(--foreground);cursor:pointer}
+    .btn[aria-pressed="true"] {background:#0872bd;border-color:#0872bd;color:white}
+    .form-check {display:inline-flex;align-items:center;gap:.45rem}
+    .form-check-input {margin:0;width:1rem;height:1rem;accent-color:#0872bd}
+    a {color:#075a94;text-underline-offset:.2em}
+    .image-downloads {margin:1.75rem 0 1rem}
+    .image-downloads h2 {font-size:1.125rem;margin:0 0 .75rem}
+    .image-downloads nav {display:flex;flex-wrap:wrap;gap:.75rem 1.25rem}
+    .image-downloads p {font-size:.875rem;color:var(--muted-foreground);margin:1rem 0 0}
+    .fallback-note {font-size:.875rem;color:var(--muted-foreground)}
+    @supports not (aspect-ratio:1 / 1) {.map-stage::before {content:"";display:block;padding-top:89.1053%}}
+    @media (max-width:500px) {main {padding:16px}.btn {min-height:44px}#krabi-coast-overlay-20261126 .plot-label[data-deed="47124"] {margin-top:5px}}
+    @media (prefers-color-scheme:dark) {
+      :root {--background:#14212a;--foreground:#ecf2f6;--muted-foreground:#bdcbd4;--blue:#35c9ff;--red:#ff6565;color-scheme:dark}
+      a {color:#8ed2ff}.btn {border-color:#4f6472}
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div id="krabi-coast-overlay-20261126">
+  <style>
+    #krabi-coast-overlay-20261126 {color:var(--foreground);display:flex;flex-direction:column;gap:calc(var(--font-size-base) * .75)}
+    #krabi-coast-overlay-20261126 .map-heading {padding-right:calc(var(--font-size-base) * 6.5)}
+    #krabi-coast-overlay-20261126 .control-label, #krabi-coast-overlay-20261126 .slider-ends {display:flex;align-items:center;justify-content:space-between;gap:calc(var(--font-size-base) * .75)}
+    #krabi-coast-overlay-20261126 .map-stage {position:relative;width:100%;aspect-ratio:1900 / 1693;overflow:hidden}
+    #krabi-coast-overlay-20261126 .map-content {position:absolute;inset:0;transform-origin:0 0}
+    #krabi-coast-overlay-20261126 .map-layer, #krabi-coast-overlay-20261126 .plot-overlay {position:absolute;inset:0;width:100%;height:100%;display:block}
+    #krabi-coast-overlay-20261126 .map-layer {object-fit:fill}
+    #krabi-coast-overlay-20261126 .historic-layer {opacity:.5}
+    #krabi-coast-overlay-20261126 .plot-overlay {pointer-events:none}
+    #krabi-coast-overlay-20261126 .plot-outline {fill:none;stroke:var(--blue);stroke-width:var(--blue-line,2.5);stroke-linejoin:round;vector-effect:non-scaling-stroke}
+    #krabi-coast-overlay-20261126 .neighbour-outline {fill:none;stroke:var(--red);stroke-width:var(--red-line,1.6);stroke-linejoin:round;vector-effect:non-scaling-stroke}
+    #krabi-coast-overlay-20261126 .caption {color:var(--muted-foreground)}
+    #krabi-coast-overlay-20261126 .plot-labels {position:absolute;inset:0;pointer-events:none;display:none}
+    #krabi-coast-overlay-20261126.is-detail .plot-labels {display:block}
+    #krabi-coast-overlay-20261126 .plot-label {position:absolute;transform:translate(-50%,-50%);color:var(--foreground);background:var(--background);padding:0 .2em;border-radius:.15em;font-weight:500}
+    #krabi-coast-overlay-20261126 .legend {display:flex;flex-wrap:wrap;gap:calc(var(--font-size-base) * .5) calc(var(--font-size-base) * 1.25)}
+    #krabi-coast-overlay-20261126 .legend-line {display:inline-block;vertical-align:middle;width:1.25em;border-top:2px solid var(--blue);margin-right:.4em}
+    #krabi-coast-overlay-20261126 .legend-line.red {border-color:var(--red)}
+    #krabi-coast-overlay-20261126.hide-neighbours .neighbour-outlines, #krabi-coast-overlay-20261126.hide-neighbours .plot-label.neighbour {display:none}
+  </style>
+  <h3 class="map-heading">Krabi coast · modern / 1967</h3>
+  <div>
+    <div class="control-label"><label class="form-label" for="krabi-historic-opacity-20261126">1967 opacity</label><output id="krabi-opacity-value-20261126" class="tabular-nums" for="krabi-historic-opacity-20261126">50%</output></div>
+    <input id="krabi-historic-opacity-20261126" class="form-range" type="range" min="0" max="100" value="50" step="1" aria-valuetext="50 percent 1967 imagery">
+    <div class="slider-ends text-small text-muted"><span>Modern only</span><span>1967 only</span></div>
+  </div>
+  <div class="viz-controls">
+    <button type="button" class="btn" data-view="coast" aria-pressed="true">Whole coast</button>
+    <button type="button" class="btn" data-view="plots" aria-pressed="false">Plot detail</button>
+    <label class="form-check"><input type="checkbox" class="form-check-input" id="krabi-neighbours" checked><span class="form-check-label">Other DOL plots</span></label>
+  </div>
+  <div class="map-stage" role="img" aria-label="Modern and 2 April 1967 coastal imagery, with selected deed 47125 in blue and eight neighbouring approximate DOL screen traces in red. Historical alignment is approximate.">
+    <div class="map-content">
+      <img class="map-layer modern-layer" src="assets/modern-base.jpg" width="1900" height="1693" alt="Modern Esri coastal reference imagery">
+      <img class="map-layer historic-layer" src="assets/1967-base.jpg" width="1900" height="1693" alt="" aria-hidden="true">
+      <svg class="plot-overlay" viewBox="0 0 1900 1693" aria-hidden="true"><g class="neighbour-outlines"><polygon class="neighbour-outline" data-deed="45594" points="875.925146,970.166724 875.435764,963.968173 875.925146,959.400817 882.776499,950.918578 890.932872,939.663288 895.500441,932.812235 904.472450,930.365429 917.685774,947.329936 919.480176,948.471777 934.977284,953.039139 943.949294,959.563937 965.318990,961.358255 966.624010,955.485939 977.227294,956.790898 979.511079,985.173724 875.925146,970.166724"></polygon><polygon class="neighbour-outline" data-deed="45591" points="875.925146,970.166724 979.511079,985.173724 980.816098,997.897030 973.801618,997.897030 952.105667,1004.911153 929.757206,1008.010415 913.118205,1008.173534 880.329587,1008.662891 875.925146,970.166724"></polygon><polygon class="neighbour-outline" data-deed="47124" points="913.118205,1008.173534 929.757206,1008.010415 952.105667,1004.911153 952.389629,1010.978490 954.547400,1014.430742 957.999833,1017.667228 954.978954,1017.667228 956.057839,1025.003257 958.431387,1030.397393 958.862941,1035.575760 957.999833,1040.322594 955.626285,1044.206365 951.958075,1047.011310 935.774796,1054.131551 921.533511,1054.778845 919.159963,1055.641904 917.433747,1058.015316 915.491753,1065.135548 913.549760,1067.724722 913.118205,1008.173534"></polygon><polygon class="neighbour-outline" data-deed="75203" points="924.922143,1091.025542 949.374451,1089.992345 954.815950,1107.832199 931.396838,1114.651285 929.330446,1112.929294 927.608452,1107.901079 926.299737,1103.699417 925.542060,1100.875349 925.197662,1096.260406 924.922143,1091.025542"></polygon><polygon class="neighbour-outline" data-deed="47128" points="951.576587,1068.799730 954.048507,1067.222870 958.667094,1060.915428 967.904268,1056.250546 975.254977,1055.330710 975.515179,1054.016658 976.946290,1052.571201 976.360836,1073.530307 966.408106,1074.647249 960.033155,1075.041464 953.398001,1075.107166 951.511536,1071.887746 951.576587,1068.799730"></polygon><polygon class="neighbour-outline" data-deed="45592" points="889.056794,928.465115 874.781522,933.137079 868.347597,936.996525 862.114731,942.887256 859.500949,948.168597 858.897769,952.840551 859.903070,958.934400 860.707310,960.559425 860.908370,967.872037 863.723213,969.090805 862.114731,1005.044387 875.585763,1005.044387 871.564560,968.481421 870.760319,962.184450 871.363499,957.106245 872.971981,953.246808 883.427110,940.246584 886.845133,935.168366 889.056794,930.496404 889.056794,928.465115"></polygon><polygon class="neighbour-outline" data-deed="40802" points="881.840594,1008.621076 913.588506,1007.897421 913.848735,1018.686460 880.344278,1018.883820 881.840594,1008.621076"></polygon><polygon class="neighbour-outline" data-deed="57183" points="906.570985,902.927104 913.464572,904.355708 923.893332,920.070335 947.402233,924.177562 950.230371,924.177562 945.281129,950.070910 940.862163,946.856567 935.382645,944.356522 929.372850,942.213626 920.888435,938.820706 910.989951,924.356137 907.454778,920.248910 898.970363,923.641837 906.570985,902.927104"></polygon></g><polygon class="plot-outline" points="951.986338,1002.344564 972.981660,995.595641 977.753324,995.595641 977.514741,1037.053228 958.428084,1015.601361 955.565086,1014.155166 952.702087,1010.298645 951.747755,1007.406252 951.986338,1002.344564"></polygon></svg>
+    </div>
+    <div class="plot-labels" aria-hidden="true"><span class="plot-label text-small neighbour" data-deed="45594">45594</span><span class="plot-label text-small neighbour" data-deed="45591">45591</span><span class="plot-label text-small neighbour" data-deed="47124">47124</span><span class="plot-label text-small neighbour" data-deed="75203">75203</span><span class="plot-label text-small neighbour" data-deed="47128">47128</span><span class="plot-label text-small neighbour" data-deed="45592">45592</span><span class="plot-label text-small neighbour" data-deed="40802">40802</span><span class="plot-label text-small neighbour" data-deed="57183">57183</span><span class="plot-label text-small selected" data-deed="47125">47125</span></div>
+  </div>
+  <div class="legend text-small"><span><span class="legend-line"></span>Selected: 47125</span><span><span class="legend-line red"></span>8 other DOL plot traces</span></div>
+  <div class="text-small caption">Approximate screen traces · Historical alignment approximate · Not surveyed boundaries</div>
+  <div class="text-small caption">DOL traces: September 2026; blue outline retained from November 2026. No fresh title lookup.</div>
+  <div class="text-small caption">USGS: 2 April 1967 · Modern: Esri mosaic, capture dates unverified</div>
+  <div class="text-small caption">Esri, Vantor, Earthstar Geographics and GIS User Community</div>
+  <script type="application/json" class="parcel-data">{"width":1900,"height":1693,"focus":{"x":765.4095839062053,"y":871.1684770954744,"width":308.89469909615826,"height":275.2414345104189},"labels":[{"deed":"45594","x":924.6316516408697,"y":963.2748061380116},{"deed":"45591","x":921.4129011956975,"y":991.9378531127295},{"deed":"47124","x":933.4816511287354,"y":1030.2819067241799},{"deed":"75203","x":938.4914516168647,"y":1101.5764844088408},{"deed":"47128","x":965.6273681363091,"y":1067.546688115719},{"deed":"45592","x":869.3535680291243,"y":969.6382343994337},{"deed":"40802","x":897.1942845280282,"y":1013.8791412429418},{"deed":"57183","x":926.0971171655692,"y":929.7149678224232},{"deed":"47125","x":968.2108153654262,"y":1015.5018778689264}],"geojson":{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"deed":"45594","source":"DOL LandsMaps saved visual trace; original September 2026 investigation","source_file":"ao-tha-lane-chanotes.geojson","source_period":"September 2026; retained by 12 September","boundary_status":"Approximate screen trace, not surveyed geometry","recorded_area_rai":41.1275,"recorded_reference":[98.75137753,8.17733375],"administration":"Khao Thong, Mueang Krabi, Krabi","source_url":"https://landsmaps.dol.go.th/"},"geometry":{"type":"Polygon","coordinates":[[[98.7491979,8.1770284704],[98.749176,8.17730303712],[98.7491979,8.177505349439999],[98.7495045,8.17788107232],[98.7498695,8.17837962768],[98.7500739,8.178683096159999],[98.7504754,8.178791477759999],[98.7510667,8.178040032],[98.751147,8.177989453919999],[98.7518405,8.1777871416],[98.752242,8.177498124],[98.7531983,8.17741864416],[98.7532567,8.17767876],[98.7537312,8.17762095648],[98.7538334,8.176363729919998],[98.7491979,8.1770284704]]]}},{"type":"Feature","properties":{"deed":"45591","source":"DOL LandsMaps saved visual trace; original September 2026 investigation","source_file":"ao-tha-lane-chanotes.geojson","source_period":"September 2026; retained by 12 September","boundary_status":"Approximate screen trace, not surveyed geometry","recorded_area_rai":41.1275,"recorded_reference":[98.75123349,8.17606411],"administration":"Khao Thong, Mueang Krabi, Krabi","source_url":"https://landsmaps.dol.go.th/"},"geometry":{"type":"Polygon","coordinates":[[[98.7491979,8.1770284704],[98.7538334,8.176363729919998],[98.7538918,8.1758001456],[98.7535779,8.1758001456],[98.752607,8.175489451679999],[98.7516069,8.17535216832],[98.7508623,8.175344942879999],[98.749395,8.17532326656],[98.7491979,8.1770284704]]]}},{"type":"Feature","properties":{"deed":"47124","source":"DOL LandsMaps saved visual trace; original September 2026 investigation","source_file":"ao-tha-lane-chanotes.geojson","source_period":"September 2026; retained by 12 September","boundary_status":"Approximate screen trace, not surveyed geometry","recorded_area_rai":28.31725,"recorded_reference":[98.75177357,8.17436564],"administration":"Khao Thong, Mueang Krabi, Krabi","source_url":"https://landsmaps.dol.go.th/"},"geometry":{"type":"Polygon","coordinates":[[[98.7508623,8.175344942879999],[98.7516069,8.17535216832],[98.752607,8.175489451679999],[98.7526197074074,8.175220695895872],[98.75271626825396,8.175067776530794],[98.75287076560846,8.17492441462603],[98.75273558042328,8.17492441462603],[98.75278386084656,8.174599460975237],[98.75289007777778,8.174360524467302],[98.75290938994709,8.174131145419683],[98.75287076560846,8.173920881292698],[98.75276454867725,8.173748847006983],[98.75260039523809,8.173624600022857],[98.75187618888889,8.17330920383238],[98.75123888730158,8.173280531451429],[98.75113267037037,8.173242301610157],[98.75105542169312,8.173137169546665],[98.75096851693122,8.17282177335619],[98.75088161216931,8.17270708383238],[98.7508623,8.175344942879999]]]}},{"type":"Feature","properties":{"deed":"75203","source":"DOL LandsMaps saved visual trace; original September 2026 investigation","source_file":"ao-tha-lane-chanotes.geojson","source_period":"September 2026; retained by 12 September","boundary_status":"Approximate screen trace, not surveyed geometry","recorded_area_rai":9.38475,"recorded_reference":[98.75199776,8.17120759],"administration":"Khao Thong, Mueang Krabi, Krabi","source_url":"https://landsmaps.dol.go.th/"},"geometry":{"type":"Polygon","coordinates":[[[98.75139052955221,8.171674953955836],[98.75248477731344,8.171720720369917],[98.75272828597016,8.170930486953477],[98.75168027402984,8.170628428620551],[98.75158780238804,8.170704705977352],[98.75151074268655,8.170927435859205],[98.75145217731341,8.171113552609794],[98.75141827104476,8.171238647474945],[98.75140285910446,8.171443070791167],[98.75139052955221,8.171674953955836]]]}},{"type":"Feature","properties":{"deed":"47128","source":"DOL LandsMaps exact-title query and visible boundary selections, 26 September 2026","source_file":"47128-trace.json","source_date":"2026-09-26","boundary_status":"Approximate manually georeferenced screen trace, not surveyed geometry","recorded_area_rai":5.6515,"recorded_reference":[98.7532121,8.17271497],"administration":"Khao Thong, Mueang Krabi, Krabi","source_url":"https://landsmaps.dol.go.th/"},"geometry":{"type":"Polygon","coordinates":[[[98.75258332352941,8.172659465517242],[98.75269394264706,8.172729313793104],[98.7529006257353,8.173008706896551],[98.75331399191177,8.173215341379311],[98.7536429382353,8.173256086206896],[98.75365458235295,8.173314293103449],[98.753718625,8.173378320689656],[98.7536924257353,8.172449920689656],[98.7532470382353,8.172400444827586],[98.75296175735295,8.172382982758622],[98.75266483235295,8.172380072413793],[98.75258041250001,8.172522679310346],[98.75258332352941,8.172659465517242]]]}},{"type":"Feature","properties":{"deed":"45592","source":"DOL LandsMaps exact-title query and visible boundary selections, 26 September 2026","source_file":"45592-trace.json","source_date":"2026-09-26","boundary_status":"Approximate manually georeferenced screen trace, not surveyed geometry","recorded_area_rai":13.5975,"recorded_reference":[98.74890382,8.17705188],"administration":"Khao Thong, Mueang Krabi, Krabi","source_url":"https://landsmaps.dol.go.th/"},"geometry":{"type":"Polygon","coordinates":[[[98.74978554500001,8.178875652380952],[98.7491467225,8.178668707142858],[98.7488588025,8.178497752380952],[98.74857988,8.178236821428571],[98.74846291249999,8.178002883333333],[98.74843591999999,8.177795938095239],[98.7484809075,8.17752600952381],[98.7485168975,8.177454028571429],[98.748525895,8.177130114285713],[98.74865186,8.177076128571429],[98.74857988,8.17548355],[98.7491827125,8.17548355],[98.7490027625,8.177103121428571],[98.7489667725,8.177382047619048],[98.748993765,8.177606988095238],[98.749065745,8.177777942857142],[98.74953361500002,8.17835379047619],[98.74968657250001,8.178578730952381],[98.74978554500001,8.178785676190477],[98.74978554500001,8.178875652380952]]]}},{"type":"Feature","properties":{"deed":"40802","source":"DOL LandsMaps exact-title query and visible boundary selections, 26 September 2026","source_file":"40802-trace.json","source_date":"2026-09-26","boundary_status":"Approximate manually georeferenced screen trace, not surveyed geometry","recorded_area_rai":5.00325,"recorded_reference":[98.7501497,8.17509221],"administration":"Khao Thong, Mueang Krabi, Krabi","source_url":"https://landsmaps.dol.go.th/"},"geometry":{"type":"Polygon","coordinates":[[[98.74946261796876,8.17532511875],[98.75088334609374,8.175357173437499],[98.75089499140624,8.1748792671875],[98.74939565742189,8.174870525],[98.74946261796876,8.17532511875]]]}},{"type":"Feature","properties":{"deed":"57183","source":"DOL LandsMaps exact-title query and visible boundary selections, 26 September 2026","source_file":"57183-trace.json","source_date":"2026-09-26","boundary_status":"Approximate manually georeferenced screen trace, not surveyed geometry","recorded_area_rai":14.56125,"recorded_reference":[98.75144311,8.17882029],"administration":"Khao Thong, Mueang Krabi, Krabi","source_url":"https://landsmaps.dol.go.th/"},"geometry":{"type":"Polygon","coordinates":[[[98.75056931,8.180006859999995],[98.75087780000001,8.179943579999996],[98.75134449000001,8.179247499999999],[98.75239651999999,8.179065569999999],[98.75252307999999,8.179065569999999],[98.7523016,8.177918620000002],[98.75210385,8.178061000000001],[98.75185864,8.178171740000002],[98.7515897,8.17826666],[98.75121002,8.17841695],[98.75076706,8.179057659999998],[98.75060886000001,8.179239589999998],[98.75022918000002,8.179089299999998],[98.75056931,8.180006859999995]]]}},{"type":"Feature","properties":{"deed":"47125","source":"Existing selected outline; November 2026 LandsMaps screen trace retained unchanged","source_file":"DEED_47125_APPROX_BOUNDARY.kml","boundary_status":"Approximate screen trace, not surveyed geometry","selected":true,"recorded_area_rai":9.467,"recorded_reference":[98.75332771,8.17502033],"administration":"Khao Thong, Mueang Krabi, Krabi","source_url":"https://landsmaps.dol.go.th/"},"geometry":{"type":"Polygon","coordinates":[[[98.75260165999997,8.175603139999998],[98.75354120666667,8.175902086666664],[98.75375474000002,8.175902086666664],[98.75374406333334,8.174065700000005],[98.75288992999998,8.175015923333333],[98.75276180999998,8.175079983333333],[98.75263368999997,8.17525081],[98.7525909833333,8.175378929999999],[98.75260165999997,8.175603139999998]]]}}]}}</script>
+  <script>
+    (() => {
+      const root = document.getElementById('krabi-coast-overlay-20261126');
+      const data = JSON.parse(root.querySelector('.parcel-data').textContent);
+      const slider = root.querySelector('input[type=range]');
+      const value = root.querySelector('output');
+      const historic = root.querySelector('.historic-layer');
+      const neighbours = root.querySelector('#krabi-neighbours');
+      let currentView = 'coast';
+      const paintOpacity = input => {
+        const opacity = Number.isFinite(Number(input)) ? Math.max(0,Math.min(100,Number(input))) : 50;
+        slider.value = String(opacity); historic.style.opacity = String(opacity/100); value.textContent = opacity+'%';
+        slider.setAttribute('aria-valuetext',opacity+' percent 1967 imagery');
+        return opacity;
+      };
+      const paintView = view => {
+        currentView = view === 'plots' ? 'plots' : 'coast';
+        const detail = currentView === 'plots', f = data.focus;
+        const scale = detail ? data.width/f.width : 1;
+        root.classList.toggle('is-detail',detail);
+        root.querySelector('.map-content').style.transform = detail ? `translate(${-f.x/data.width*scale*100}%,${-f.y/data.height*scale*100}%) scale(${scale})` : 'none';
+        root.style.setProperty('--blue-line',2.5/scale); root.style.setProperty('--red-line',1.6/scale);
+        root.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===currentView)));
+        root.querySelectorAll('.plot-label').forEach(label=>{
+          const point=data.labels.find(p=>p.deed===label.dataset.deed);
+          label.style.left=((point.x-f.x)/f.width*100)+'%'; label.style.top=((point.y-f.y)/f.height*100)+'%';
+        });
+      };
+      const paintNeighbours = show => {neighbours.checked=show!==false;root.classList.toggle('hide-neighbours',!neighbours.checked)};
+      const save = () => {};
+      const apply = state => {const s=state?.privateContent??state?.modelContent??{};paintOpacity(s.historicOpacity??50);paintView(s.view);paintNeighbours(s.showNeighbours)};
+      apply(null);
+      slider.addEventListener('input',()=>paintOpacity(slider.value));slider.addEventListener('change',save);
+      root.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>{paintView(b.dataset.view);save()}));
+      neighbours.addEventListener('change',()=>{paintNeighbours(neighbours.checked);save()});
+      root.dataset.ready = 'true';
+    })();
+  </script>
+</div>
+
+    <noscript><p class="fallback-note">The combined map is shown above. Open the individual images below to compare them without interactive controls.</p></noscript>
+    <section class="image-downloads" aria-labelledby="download-title">
+      <h2 id="download-title">Open or download the images</h2>
+      <nav aria-label="Image downloads">
+        <a href="modern.jpg">Modern imagery</a>
+        <a href="1967.jpg">2 April 1967</a>
+        <a href="overlay.jpg">50/50 overlay</a>
+        <a href="all-three-images.zip" download>All three · ZIP</a>
+      </nav>
+      <p>Blue: selected deed 47125. Red: saved DOL traces for 40802, 45591, 45592, 45594, 47124, 47128, 57183 and 75203. All outlines are approximate screen traces, not surveyed boundaries. Historical alignment is approximate; small offsets are not necessarily landscape changes.</p>
+    </section>
+  </main>
+</body>
+</html>
